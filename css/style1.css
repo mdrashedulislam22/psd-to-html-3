@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*navigation stert*/
+#navigation{
+    background-color: #02918c;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#navigation div .row{
+    justify-content: space-between;
+    align-items: center;
+}
+#navigation div ul li a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    color:#ffffff;
+    padding: 10px 26px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    transition: 0.8s;    
+}
+#navigation div ul li:hover a{
+    background-color: #cfc91d;
+    color: #0b1016;
+    border-radius: 20px;
+}
+/*navigation end*/
+/*benner stert*/
+#banner{
+    background-image: url(./img/img_bg.jpg);
+    width: 100%;
+    height: 730px;
+    position: relative;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#ffffff    
+}
+#banner::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    inset: 0;    
+}
+#banner .container{
+    height: 100%;
+       
+    }
+    #banner .row{
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+       
+    }
+
+#banner h3{
+font-size: 30px;
+font-weight: 400;
+}
+#banner h1{
+font-size: 68px;
+font-weight: 800;
+letter-spacing: 31px;
+text-transform: uppercase;
+}
+#banner p{
+    font-size: 18px;
+}
+#banner .row{
+    text-align: center;
+    
+}
+#banner img{
+    display: block;
+    margin:52px auto;
+}
+#banner strong{
+    font-size: 14px;
+    color: #0b1016;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: #cfc91d;
+    padding: 19px 42px;
+    display: inline-block;
+    letter-spacing: 2px;
+    
+}
+#banner div .index{
+    z-index:1;  
+}
+/*benner end*/
+/*about start*/
+#about{
+    width: 100%;
+    height: 738px;
+    background-color: #ffffff;
+    }
+.container{
+    width: 1170px;
+    margin: auto;
+    }
+#about div.row{
+    width: 1170px;
+    
+}
+#about div .me{
+font-size: 46px;
+font-weight: 800;
+text-transform: uppercase;
+color:#02918c;
+margin: 98px 5px 0px 0px;
+}
+#about div p{
+    padding: 31px 40px 0px 0px;
+}
+#about div .lorem{
+    font-size: 16px;
+    color:#7e8287;
+    text-shadow: #b8babd;
+  line-height: 28px;
+    }
+    #about div .lorem b{
+        font-size: 23px;
+        font-weight: 800;
+        color:#7e8287;
+        text-shadow: #dddedf;
+        
+    } 
+    #about div.content{
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#tools{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 80px;
+    }
+    #tools .m{
+        width: 25%;
+        border-right: 1px solid #d9dbdb;
+        padding: 36px 50px;
+        
+        } 
+    #tools .m:last-child{
+    border-right: none;
+    }
+    #tools img{
+        width: 31px;
+        height: 33px;
+    }
+#tools h3{
+    color:#7e8287;
+    font-weight: 800;
+    display:flex;
+    
+    justify-content: center;
+}
+#tools p{
+    color:#7e8287;
+    font-size: 11px;
+    line-height: 15px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+/*about end*/
+/*service start*/
+#service{
+    width: 100%;
+    height: 730px;
+    background-image: url(./img/sevice-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#service .nm{
+    width: 50%;
+    padding: 74px 0px;
+}
+#service .me{
+ font-size: 46px;
+font-weight: 800;
+text-transform: uppercase;
+color:#02918c;
+
+}
+
+
+#service .main-service{
+    padding-right: 95px;
+}
+
+#service div .lorem{
+    font-size: 16px;
+    color:#7e8287;
+    text-shadow: #b8babd;
+  line-height: 28px;
+    }
+ #service .service-items{
+    display: flex;    
+    flex-wrap: wrap;
+    width: 100%; 
+ }
+ .ju{    
+    padding: 54px 127px 0px 0px ;   
+ }
+ #service img{
+    width: 31px;
+    height: 33px;
+}
+#service .service-title{
+color:#7e8287;
+font-weight: 800;
+display:flex;
+padding: 18px 0px;
+
+}
+#service p{
+color:#7e8287;
+font-size: 11px;
+line-height: 15px;
+justify-content: left;
+display: flex;
+padding: 22px 0px 0px 0px;
+font-weight: 400;
+}
+/*service end*/
+/*my-work stert*/
+#my-work{
+    width: 100%;
+    height: 825px;
+}
+#my-work .main-my-work{
+    padding: 110px 0px;
+}
+
+   #my-work .me{
+font-size: 46px;
+font-weight: 800;
+text-transform: uppercase;
+color:#02918c;
+text-align: center;
+font-weight: 800;
+}
+#my-work p{
+    color:#7e8287;
+    font-size: 11px;
+    line-height: 15px;
+    justify-content: left;
+    
+    padding: 22px 0px 0px 0px;
+    text-align: center;
+}
+#my-work .lorem{
+        font-size: 16px;
+        color:#7e8287;
+        text-shadow: #b8babd;
+      line-height: 28px;
+      text-align: center;
+      font-weight: 400;
+}
+#my-work .pictur{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#my-work .pictur-item{
+    width: 25%;
+    position: relative;
+}
+#my-work .pictur-item img{
+    width: 100%;
+    display: block;      
+}
+#my-work .pictur-item .overlay h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+}
+#my-work .pictur-item .overlay p{
+    font-size: 16px;
+    color:#ffffff;
+    text-shadow: #b8babd;
+    font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+#my-work .pictur-item .overlay{
+position: absolute;
+inset: 20px 27px 20px 27px;
+background: rgba(2,145,140,0.85);
+z-index: 1;
+opacity: 0;
+visibility: hidden;
+transition: 0.8s;
+transform-origin:  left top;
+transform: scale(0) skew(50deg);
+padding: 54px 40px;
+border-radius: 10px 40px;
+}
+#my-work .pictur-item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) skew(0);
+    transform-origin: top left;
+    padding: 54px 40px;
+    border-radius: 40px 10px;
+}
+#contact-me{
+    width: 100%;
+    height: 334;
+    margin-top: 50px;
+    padding: 74px 0px;
+}
+#contact-me h3{
+    font-size: 46px;
+font-weight: 800;
+text-transform: uppercase;
+color:#02918c;
+text-align: center;
+font-weight: 800;
+}
+#contact-me p{
+    color:#7e8287;
+    font-size: 11px;
+    line-height: 15px;
+    justify-content: left;
+    line-height: 28px;
+    padding: 22px 0px 0px 0px;
+    text-align: center;
+}
